@@ -1,8 +1,9 @@
-POST http://localhost:3003/api/blogs
+POST http://localhost:3001/api/blogs
 content-type: application/json
+Authorization: bearer 
 
 {
-    "title": "blogi",
+    "title": "blogi2",
     "author": "blogisti",
     "url": "www.blog.fi",
     "likes": 10
